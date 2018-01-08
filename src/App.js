@@ -3,7 +3,10 @@
 import * as React from 'react'
 import './App.css'
 
-class App extends React.Component<null> {
+type Props = {
+}
+
+class App extends React.Component<Props> {
   render() {
     return (
       <h1>Opera App</h1>
