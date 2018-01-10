@@ -15,9 +15,9 @@ class App extends React.Component<Props> {
       title: 'Rigoletto'
     }
   }
-  constructor(props: Props) {
-    super(props)
-  }
+  // constructor(props: Props) {
+  //   super(props)
+  // }
   render() {
     const { opera } = this.props
     return (
